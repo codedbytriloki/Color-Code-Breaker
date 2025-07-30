@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Color Code Breaker
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Color Code Breaker</h1>
+    <div class="color-options">
+      <div class="color" data-color="red"  style="background-color: red;"></div>
+      <div class="color" data-color="yellow"  style="background-color:yellow ;"></div>
+      <div class="color" data-color="green"  style="background-color: green;"></div>
+      <div class="color" data-color="blue" style="background-color:blue ;" ></div>
+      <div class="color" data-color="purple" style="background-color:purple ;" ></div>
+      <div class="color" data-color="orange"  style="background-color:orange ;"></div>
+    </div>
+    <div class="guess-row" id="guessRow"></div>
+    <button id="checkBtn">Check Code</button>
+    <div id="feedback"></div>
+    <div id="attempts">Attempts left : 10</div>
+    <button id="restartBtn">Play Again</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
